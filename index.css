@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "DS-Digital";
+  src: url(DS-DIGI.TTF) format("truetype");
+}
+
+body {
+  background-color: #07010b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  height: auto;
+  width: auto;
+}
+
+.container {
+  background-color: transparent;
+  display: flex;
+  width: auto;
+  height: auto;
+}
+.container1 {
+  border-radius: 15px;
+  background-image: linear-gradient(
+    0.5turn,
+    #210125,
+    #7303c0,
+    #ec38bc,
+    #eea5d9,
+    #ec38bc,
+    #7303c0,
+    #210125
+  );
+  padding: 7px;
+  margin-right: 5px;
+}
+.container2 {
+  border-radius: 15px;
+  background-image: linear-gradient(
+    0.5turn,
+    #210125,
+    #7303c0,
+    #ec38bc,
+    #eea5d9,
+    #ec38bc,
+    #7303c0,
+    #210125
+  );
+  padding: 7px;
+}
+
+button {
+  font-family: "DS-Digital";
+  background-color: black;
+  color: chartreuse;
+  border-radius: 15px;
+}
+
+p {
+  font-family: "DS-Digital";
+  font-size: 18px;
+  font-weight: bolder;
+  color: chartreuse;
+  margin-left: 35px;
+}
+
+h3 {
+  font-family: "DS-Digital";
+  font-size: 24px;
+  color: chartreuse;
+  font-weight: 900;
+  height: 27px;
+  margin-left: 10px;
+}
+#rubrik {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+}
+
+#save-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 20px;
+}
+
+#save-guest {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+}
