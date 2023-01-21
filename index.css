@@ -55,19 +55,20 @@ button {
   background-color: black;
   color: chartreuse;
   border-radius: 15px;
+ margin-left: 5px;
 }
 
 p {
   font-family: "DS-Digital";
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bolder;
   color: chartreuse;
-  margin-left: 35px;
+  margin-left: 40px;
 }
 
 h3 {
   font-family: "DS-Digital";
-  font-size: 24px;
+  font-size: 36px;
   color: chartreuse;
   font-weight: 900;
   height: 27px;
@@ -78,7 +79,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70px;
+  width: 95px;
 }
 
 #save-home {
